@@ -79,15 +79,15 @@ Pokedex is built with Flutter (version 3.38.3) and uses the `PokeAPI` to display
 
 **Splash Screen**
 
-![Splash Screen](flutter_01.png)
+<img src="flutter_01.png" alt="Splash Screen" width="200" />
 
 **List Screen**
 
-![List Screen](flutter_02.png)
+<img src="flutter_02.png" alt="List Screen" width="200" />
 
 **Detail Screen**
 
-![Detail Screen](flutter_03.png)
+<img src="flutter_03.png" alt="Detail Screen" width="200" />
 
 ---
 
