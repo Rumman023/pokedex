@@ -6,7 +6,7 @@ Pokedex is built with Flutter (version 3.38.3) and uses the `PokeAPI` to display
 ---
 ## **Technical Stack**
 
-* **Framework:** Flutter 3.38.x (stable) with Dart 3.9, Material 3 widgets, responsive layouts, and strong null safety. Linting is configured through `analysis_options.yaml`.
+* **Framework:** Flutter 3.38.3 (stable) with Dart 3.9, Material 3 widgets, responsive layouts, and strong null safety. Linting is configured through `analysis_options.yaml`.
 * **State Management:** `flutter_bloc` handles all event/state logic and `equatable` ensures clean value comparisons. BLoCs expose clear APIs and are set up through dependency injection.
 * **Networking & Models:** `dio` manages all HTTP calls with interceptors, timeouts, and cancellation. Data is fetched from `https://pokeapi.co/api/v2/pokemon`, and detail URLs come from the list results. Models use `freezed` and `json_serializable` to turn JSON into immutable domain objects.
 * **Dependency Injection:** `get_it` connects repositories, data sources, BLoCs, connectivity checks, and utilities in `injection_container.dart` before the app starts.
